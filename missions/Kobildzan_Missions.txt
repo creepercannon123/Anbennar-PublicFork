@@ -666,7 +666,7 @@ kob_4_a = {
 			NOT = { A13 = { navy_size = ROOT } }
 			NOT = { Z22 = { navy_size = ROOT } }
 			NOT = { A06 = { navy_size = ROOT } }
-			num_of_colonists = 1
+			has_idea = colonial_ventures
 		}
 
 		effect = {
@@ -676,6 +676,10 @@ kob_4_a = {
 			} else_if = {
 				limit = { 1205 = { is_city = no is_colony = no } }
 				1205 = { create_colony = 400 }
+			}
+			else = {
+				add_claim = 1001
+				add_claim = 1205
 			}
 			
 			add_country_modifier = {

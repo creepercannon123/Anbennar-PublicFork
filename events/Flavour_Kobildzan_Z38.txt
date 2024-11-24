@@ -285,6 +285,12 @@ country_event = { #Artificer Malcontents
 				limit = { NOT = { culture_group = gnomish } }
 				add_gnomish_minority_size_effect = yes
 			}
+			owner = {
+				add_historical_rival = ROOT
+				ROOT = {
+					add_historical_rival = PREV
+				}
+			}
 		}
 		hidden_effect = {
 			change_variable = {

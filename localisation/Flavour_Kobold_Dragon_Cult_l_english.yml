@@ -38,8 +38,8 @@
  
  UNLOCKED_DRAGON_CULT_TOOLTIP:0 "§YDragon Cult§!"
 
- church_power_hoard_donation:0 "Our subjects will make a donations of §G[Root.dev2add.GetValue]§!¤ to the Hoard."
- church_power_hoard_donation_100:0 "Our subjects will make a donations of §G100§!¤ to the Hoard."
+ church_power_hoard_donation:0 "Our subjects will make a donation of §G[Root.dev2add.GetValue]§!¤ to the Hoard."
+ church_power_hoard_donation_100:0 "Our subjects will make a donation of §G100§!¤ to the Hoard."
  
  DRAGON_ASPECTS:0 "Dragons"
  DRAGON_ASPECTS_LONG:0 "Dragon Cult"
