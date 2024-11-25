@@ -228,8 +228,8 @@ country_event = { #Artificer Malcontents
 				NOT = { truce_with = H30 }
 			}			
 			AND = {
-				exists = H33
-				NOT = { truce_with = H33 }
+				exists = H32
+				NOT = { truce_with = H32 }
 			}
 			AND = {
 				exists = U31
