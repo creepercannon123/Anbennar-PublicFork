@@ -517,7 +517,7 @@ kob_3_a = {
 			}
 		}
 		effect = {
-			country_event = { id = flavour_kobildzan.2 }
+			country_event = { id = flavour_kobildzan.2 days = 1 }
 			random_subject_country = {
 				limit = {
 					is_colonial_nation_of = ROOT
@@ -1117,6 +1117,7 @@ kob_2_b = {
 				has_estate_privilege = artifice_invention_dragonscale_plating
 				has_estate_privilege = artifice_invention_prehensile_tail_attachments
 				has_estate_privilege = artifice_invention_artificial_egg_surrogates
+				tier_2_artificer_estate = yes
 			}
 		}
 
@@ -2770,7 +2771,7 @@ kob_2_c = {
 			1746 = {
 				kill_units = {
 					who = ROOT
-					type = light_ship
+					type = transport
 					amount = 40
 				}
 				add_core = H24
