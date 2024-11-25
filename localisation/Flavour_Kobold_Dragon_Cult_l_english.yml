@@ -186,7 +186,7 @@
  desc_brown_dragon_3_upgraded:0 ""The Dragon Turtles have experienced greater loss and self-sacrifice than anyone of our age or in ages past. They protected Kanolowele from the Day of Ashen Skies, and so much else; it is only thanks to them that vast swathes of people still exist and thrive on that archipelago at all. They have taught us much of the past, and with their teachings we will ensure that all remains just, swaying through the storms of statecraft with the restraint and wisdom of these gentle colossi. With their knowledge on our side, there is nothing we cannot do!" - Compendium of Dragons, Seventy-First Edition"
 
  brass_dragon_1_upgraded:0 "Upgraded Brass: Jyntas the Enigmatic"
- desc_brass_dragon_1_upgraded:0 ""Jyntas is a mystery, and she always will be. It is said that she saved Bhuvari; that she helped Suhan; that she broke the Raj. Every major event in Haless is attributed to her in one way or another, and she walks the domains of myth and hopeful causes in equal measure. For those to whom discovery means chains, mystery is the only cloak which gives true comfort." - The Compendium of Dragons, Forty-Seventh Edition \n\nWith this Aspect, Festivals are enhanced. All neighboring countries will lose §G-5§!/§G-10§!/§G-15§! Aggressive Expansion of us, depending on how many Upgraded aspects of Jyntas are active."
+ desc_brass_dragon_1_upgraded:0 ""Jyntas is a mystery, and she always will be. It is said that she saved Bhuvari; that she helped Suhan; that she broke the Raj. Every major event in Haless is attributed to her in one way or another, and she walks the domains of myth and hopeful causes in equal measure. For those to whom discovery means chains, mystery is the only cloak which gives true comfort." - The Compendium of Dragons, Forty-Seventh Edition \n\nWith this Aspect, Festivals are enhanced. All neighboring countries will lose §G-3§!/§G-6§!/§G-10§! Aggressive Expansion of us, depending on how many Upgraded aspects of Jyntas are active."
  brass_dragon_2_upgraded:0 "Upgraded Brass: Jyntas the Avenged"
  desc_brass_dragon_2_upgraded:0 ""The brass dragon is a tragic hero: she always breaks chains, just to find that new ones have been placed while she is away. Whether Raj, or Bhuvari, or anything else, the people of Haless always seem to find new ways to oppress each other after her interventions. No longer! We act as her enforcers, and followers. Her will shall be avenged, and it will be avenged through us." - The Compendium of Dragons, Eighty-Fourth Edition"
  brass_dragon_3_upgraded:0 "Upgraded Brass: Jyntas, Chainbreaker"
@@ -473,9 +473,9 @@
  gold_dragon_upgrade_3_tt_yes:0 "£yes£ With a Goldscale subject's aid, §Y[4323.GetName]§! is owned by us or a subject.\nIn addition, we have fully upgraded the §YBrass§! and §YGreen§! aspects.\nTogether, we shall find Balris in the mountains above the Jade Mines!"
 
  blue_dragon_hinting_effect_tt:0 "If we embrace artificery, this Festival will give us bonuses to our artificer capacity!"
- jyntas_lose_ae_tt_1: "We will lose §G5§! Aggressive Expansion with all neighboring countries!"
- jyntas_lose_ae_tt_2: "We will lose §G10§! Aggressive Expansion with all neighboring countries!"
- jyntas_lose_ae_tt_3: "We will lose §G15§! Aggressive Expansion with all neighboring countries!"
+ jyntas_lose_ae_tt_1: "We will lose §G3§! Aggressive Expansion with all neighboring countries!"
+ jyntas_lose_ae_tt_2: "We will lose §G6§! Aggressive Expansion with all neighboring countries!"
+ jyntas_lose_ae_tt_3: "We will lose §G10§! Aggressive Expansion with all neighboring countries!"
 
  silver_dragon_province_mod_1:0 "The Silver Embrace of Castellos (Level 1)"
  desc_silver_dragon_province_mod_1:0 "The people rejoice! For Castellos, the Silver Dragon!"

@@ -327,7 +327,7 @@ country_event = {
 					every_neighbor_country = {
 						add_aggressive_expansion = {
 							who = ROOT
-							value = 15
+							value = -10
 							apply_calc = yes
 						}
 					}					
@@ -345,7 +345,7 @@ country_event = {
 					every_neighbor_country = {
 						add_aggressive_expansion = {
 							who = ROOT
-							value = 10
+							value = -6
 							apply_calc = yes
 						}
 					}				
@@ -357,7 +357,7 @@ country_event = {
 					every_neighbor_country = {
 						add_aggressive_expansion = {
 							who = ROOT
-							value = 5
+							value = -3
 							apply_calc = yes
 						}
 					}				
