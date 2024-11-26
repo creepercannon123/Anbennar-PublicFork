@@ -1826,7 +1826,8 @@ country_event = {
 						has_country_flag = unlocked_green_dragon_3_upgraded
 						has_country_flag = unlocked_brass_dragon_3_upgraded
 					}
-				}			
+				}	
+				NOT = { has_country_flag = balris_begun }		
 			}
 		}
 		if = {
@@ -2953,6 +2954,7 @@ country_event = {
 					}
 					has_country_flag = balris_begun
 				}
+				NOT = { has_country_flag = balris_begun }
 			}
 		}
 		if = {
