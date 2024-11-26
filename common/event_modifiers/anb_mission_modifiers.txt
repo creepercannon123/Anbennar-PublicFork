@@ -32472,7 +32472,7 @@ Z38_seabeast_fisheries = {
 }
 
 Z38_sanctified_through_effort = {
-	local_development_cost = -1
+	local_development_cost = -0.9
 	local_unrest = -2
 }
 
