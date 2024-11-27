@@ -2404,6 +2404,7 @@ Kob_5b = {
 						area = moorhills_area
 						area = coddorran_heights_area
 						area = dragonhills_area
+						area = serpentshead_area
 					}
 					OR = {
 						NOT = { owned_by = ROOT }
@@ -2431,6 +2432,7 @@ Kob_5b = {
 				moorhills_area = { type = all owned_by = ROOT religion = kobold_dragon_cult }
 				coddorran_heights_area = { type = all owned_by = ROOT religion = kobold_dragon_cult }
 				dragonhills_area = { type = all owned_by = ROOT religion = kobold_dragon_cult }
+				serpentshead_area = { type = all owned_by = ROOT religion = kobold_dragon_cult }
 			}
 			
 
@@ -2467,6 +2469,8 @@ Kob_5b = {
 
 			frostbridges_area = { add_permanent_claim = ROOT }
 			serpentshead_area = { add_permanent_claim = ROOT }
+			bjarnland_area = { add_permanent_claim = ROOT }
+			revrland_area = { add_permanent_claim = ROOT }
 		}
 	}
 }

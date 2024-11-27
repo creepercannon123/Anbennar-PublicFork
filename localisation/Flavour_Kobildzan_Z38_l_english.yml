@@ -258,7 +258,7 @@
  level_2_cot_owned_by_root_tt: "Is owned by §Y[Root.GetName]§! and has a §YCenter of Trade§! of at least level §G2§!"
  modified_traps_tt: "§RAll current and future§! §YKobold Traps§! §Rwill be modified, giving fewer defensive bonuses and more economic bonuses!§!"
  caverns_are_prosperous_tt: "All Cavern provinces in the §YDragon Coast§! region are §YProsperous§!, and have at least §Y1§! building"
- westmoor_moorhills_coddorran_dragonhills_tt: "The §YWestmoor Proper§!, §YMoorhills§!, §YCoddorran Heights§!, and §YDragonhills§! areas are owned by §Y[Root.GetName]§! and are §YKobold Dragon Cult§!"
+ westmoor_moorhills_coddorran_dragonhills_tt: "The §YWestmoor Proper§!, §YMoorhills§!, §YCoddorran Heights§!, §YDragonhills§!, and §YSerpentshead§! Areas are owned by §Y[Root.GetName]§! and are §YKobold Dragon Cult§!"
  recoup_losses_tt: "We will recoup all development lost by the §YArtificer Malcontents§! Event. This is currently §G[Root.artificer_malcontents_var.GetValue]§! Development."
  kobold_traps_lvl_2_or_more: "Has a §YKobold Trap§! of level §Y2§! or higher"
  fish_provinces_tt: "The fish-producing provinces of §Y[171.GetName]§!, §Y[172.GetName]§!, §Y[181.GetName]§!, §Y[176.GetName]§!, §Y[122.GetName]§!, and §Y[145.GetName]§! are owned by §Y[Root.GetName]§! and have at least §Y2§! Light Ships docked"
