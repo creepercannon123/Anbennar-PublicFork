@@ -608,7 +608,7 @@ country_event = {
 	id = sky_domain.20
 	title = sky_domain.20.t
 	desc = sky_domain.20.d
-	picture = AMILAK_eventPicture
+	picture = AFRICAN_DISCIPLINE_eventPicture
 	is_triggered_only = yes
 
 	immediate = {
@@ -707,7 +707,7 @@ country_event = {
 	id = sky_domain.22
 	title = sky_domain.22.t
 	desc = sky_domain.22.d
-	picture = AMILAK_eventPicture
+	picture = PIETY_eventPicture
 	is_triggered_only = yes
 
 	trigger = {
@@ -752,7 +752,7 @@ country_event = {
 	id = sky_domain.23
 	title = sky_domain.23.t
 	desc = sky_domain.23.d
-	picture = AMILAK_eventPicture
+	picture = SMUGGLERS_eventPicture
 	is_triggered_only = yes
 
 	immediate = {
@@ -789,7 +789,7 @@ country_event = {
 	id = sky_domain.24
 	title = sky_domain.24.t
 	desc = sky_domain.24.d
-	picture = AMILAK_eventPicture
+	picture = HARPY_TOWN_eventPicture
 	is_triggered_only = yes
 
 	immediate = {
