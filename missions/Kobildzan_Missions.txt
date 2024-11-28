@@ -1334,7 +1334,6 @@ kob_2_b = {
 						any_owned_province = { has_port = yes }
 					}
 				}
-				exists = no 
 			}
 			H31 = {
 				custom_trigger_tooltip = {
@@ -1343,7 +1342,6 @@ kob_2_b = {
 						any_owned_province = { has_port = yes }
 					}
 				}
-				exists = no 
 			}
 			H32 = {
 				custom_trigger_tooltip = {
@@ -1352,7 +1350,6 @@ kob_2_b = {
 						any_owned_province = { has_port = yes }
 					}
 				}
-				exists = no 
 			}
 			U31 = {
 				custom_trigger_tooltip = {
@@ -1361,9 +1358,7 @@ kob_2_b = {
 						any_owned_province = { has_port = yes }
 					}
 				}
-				exists = no 
 			}
-
 
 			OR = {
 				faction_influence = { influence = 75 faction = tec_brilliance }
