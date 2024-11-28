@@ -666,18 +666,21 @@ country_event = {
 			name = honour_the_water_queens
 			duration = 3650
 		}
-		every_owned_province = {
-			limit = {
-				OR = {
-					trade_goods = livestock
-					trade_goods = grain
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					OR = {
+						trade_goods = livestock
+						trade_goods = grain
+					}
+				}
+				add_province_modifier = {
+					name = honour_the_water_queens_goods
+					duration = 730
 				}
 			}
-			add_province_modifier = {
-				name = honour_the_water_queens_goods
-				duration = 730
-			}
 		}
+		custom_tooltip = honour_water_queens
 		add_dip_power = -50
 	}
 
@@ -691,7 +694,7 @@ country_event = {
 	}
 
 	option = {
-		name = sky_domain.21.d
+		name = sky_domain.21.e
 		add_prestige = -10
 		add_estate_loyalty = {
 			estate = estate_church

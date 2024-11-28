@@ -584,7 +584,7 @@ all_serve_amilak = {
 }
 
 arrest_harpy_heretics = {
-	global_missionary_strength = 1
+	global_missionary_strength = 0.01
 	tolerance_heretic = -1
 }
 
