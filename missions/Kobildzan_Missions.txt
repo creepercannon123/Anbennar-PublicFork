@@ -1085,11 +1085,12 @@ kob_2_b = {
 			country_event = { id = flavour_kobildzan.5 }
 			unlock_government_reform = {
 				government_reform = kobildzan_draconic_technopriests
-				tooltip = yes
 			}
-			if = {
-				limit = { has_reform_on_level = 4 }
-				add_government_reform = kobildzan_draconic_technopriests
+			hidden_effect = {
+				if = {
+					limit = { has_reform_on_level = 4 }
+					add_government_reform = kobildzan_draconic_technopriests
+				}			
 			}
 		}
 	}
