@@ -817,6 +817,7 @@ peace = {
 	pen_harmaceuticals_influence = 0.05
 	monthly_caravan_preparation = 0.33
 	monthly_jaddari_zealotry = -0.25
+	monthly_taychend_vainglory_power = -0.275
 }
 
 unconditional_surrender = {

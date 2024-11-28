@@ -2205,13 +2205,6 @@ custom_button = {
 				set_estate_privilege = artifice_invention_commercial_sky_galleons
 			}
 		}
-		else_if = {
-			limit = {
-				has_estate_privilege = artifice_invention_commercial_sky_galleons
-				unable_to_disable_economic_inventions = yes
-			}
-			custom_tooltip = can_disable_economic_inventions_no_tt
-		}
         else_if = {
 			limit = {
 				has_estate_privilege = artifice_invention_commercial_sky_galleons

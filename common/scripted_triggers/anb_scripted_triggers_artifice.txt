@@ -66,7 +66,6 @@ artifice_has_points_40 = {
 has_active_all_economic_tier_1_inventions = {
 	has_estate_privilege = artifice_invention_artificer_exo_arms
 	has_estate_privilege = artifice_invention_spell_in_a_box
-	has_estate_privilege = artifice_invention_commercial_sky_galleons
 	has_estate_privilege = artifice_invention_fine_print_obfuscator
 	has_estate_privilege = artifice_invention_automated_translator
 	has_estate_privilege = artifice_invention_wine_ageifier
@@ -92,6 +91,7 @@ has_active_all_military_tier_1_inventions = {
 	has_estate_privilege = artifice_invention_scrap_mechs
 	has_estate_privilege = artifice_invention_sunbeam_armaments
 	has_estate_privilege = artifice_invention_power_fists
+	has_estate_privilege = artifice_invention_commercial_sky_galleons
 }
 
 has_active_all_society_tier_1_inventions = {
@@ -469,7 +469,6 @@ num_artifice_inventions_discovered = {
 has_discovered_all_economic_tier_1_inventions = {
 	has_country_flag = unlocked_artifice_invention_artificer_exo_arms
 	has_country_flag = unlocked_artifice_invention_spell_in_a_box
-	has_country_flag = unlocked_artifice_invention_commercial_sky_galleons
 	has_country_flag = unlocked_artifice_invention_fine_print_obfuscator
 	has_country_flag = unlocked_artifice_invention_automated_translator
 	has_country_flag = unlocked_artifice_invention_wine_ageifier
@@ -494,6 +493,7 @@ has_discovered_all_military_tier_1_inventions = {
 	has_country_flag = unlocked_artifice_invention_scrap_mechs
 	has_country_flag = unlocked_artifice_invention_sunbeam_armaments
 	has_country_flag = unlocked_artifice_invention_power_fists
+	has_country_flag = unlocked_artifice_invention_commercial_sky_galleons
 }
 
 has_discovered_all_society_tier_1_inventions = {
@@ -615,28 +615,46 @@ artifice_has_invention_slot = {
 	}
 }
 
+artifice_has_num_inventions_active = {
+	custom_trigger_tooltip = {
+		tooltip = artifice_is_using_$amount$_artificer_invention
+		check_variable = {
+			which = artifice_inventions_currently_used
+			value = $amount$
+		}
+	}
+}
+
+artifice_not_using_any_inventions = {
+	custom_trigger_tooltip = {
+		tooltip = is_not_using_any_inventions_tt
+		NOT = {
+			check_variable = {
+				which = artifice_inventions_currently_used
+				value = 1
+			}
+		}
+	}
+}
+
 artifice_can_select_invention_10 = {
 	artifice_has_invention_slot = yes
 	artifice_has_points_10 = yes
-	treasury = 50
 }
 
 artifice_can_select_invention_20 = {
 	artifice_has_invention_slot = yes
 	artifice_has_points_20 = yes
-	treasury = 100
 }
 
 artifice_can_select_invention_30 = {
 	artifice_has_invention_slot = yes
 	artifice_has_points_30 = yes
-	treasury = 200
 }
 
 artifice_can_select_invention_40 = {
 	artifice_has_invention_slot = yes
 	artifice_has_points_40 = yes
-	treasury = 400
 }
 
 artifice_invention_has_any_menu_open = {
