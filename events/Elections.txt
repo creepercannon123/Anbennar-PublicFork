@@ -3063,8 +3063,7 @@ country_event = { #Technocracy Election
 			NOT = { has_country_flag = technocracy_death_election }
 		}
 		name = elections.900.a # Current ruler stays
-		ai_chance = { factor = 0 }
-
+		ai_chance = { factor = 50 }
 		if = {
 			limit = {
 				has_government_attribute = reelection_depowers_estates
@@ -3128,8 +3127,26 @@ country_event = { #Technocracy Election
 				giberd_factions_mechanists_increase = yes
 			}
 		}
+
 		if = {
-			limit = { ai = no }
+			limit = {
+				ai = no 
+				OR = {
+					AND = {
+						has_country_flag = brillite_ruler
+						faction_in_power = tec_brilliance
+					}
+					AND = {
+						has_country_flag = technomancy_ruler
+						faction_in_power = tec_technomancy
+					}
+					AND = {
+						has_country_flag = mechanists_ruler
+						faction_in_power = tec_mechanists
+					}
+				}
+			}
+			custom_tooltip = wrong_ruler_faction_tooltip
 			if = {	#long-lived races
 				limit = {
 					OR = {
@@ -3201,7 +3218,21 @@ country_event = { #Technocracy Election
 			limit = {
 				faction_influence = {
 					faction = tec_brilliance
-					influence = 80
+					influence = 99
+				}
+			}
+			hidden_effect = {
+				change_adm = 4
+				change_dip = 4
+				change_mil = 4
+			}
+			custom_tooltip = increase_stats_by_3_influence_tt 
+		}
+		else_if = {
+			limit = {
+				faction_influence = {
+					faction = tec_brilliance
+					influence = 75
 				}
 			}
 			hidden_effect = {
@@ -3215,7 +3246,7 @@ country_event = { #Technocracy Election
 			limit = {
 				faction_influence = {
 					faction = tec_brilliance
-					influence = 60
+					influence = 50
 				}
 			}
 			hidden_effect = {
@@ -3229,7 +3260,7 @@ country_event = { #Technocracy Election
 			limit = {
 				faction_influence = {
 					faction = tec_brilliance
-					influence = 40
+					influence = 25
 				}
 			}
 			hidden_effect = {
@@ -3338,7 +3369,21 @@ country_event = { #Technocracy Election
 			limit = {
 				faction_influence = {
 					faction = tec_technomancy
-					influence = 80
+					influence = 99
+				}
+			}
+			hidden_effect = {
+				change_adm = 4
+				change_dip = 4
+				change_mil = 4
+			}
+			custom_tooltip = increase_stats_by_3_influence_tt 
+		}
+		else_if = {
+			limit = {
+				faction_influence = {
+					faction = tec_technomancy
+					influence = 75
 				}
 			}
 			hidden_effect = {
@@ -3352,7 +3397,7 @@ country_event = { #Technocracy Election
 			limit = {
 				faction_influence = {
 					faction = tec_technomancy
-					influence = 60
+					influence = 50
 				}
 			}
 			hidden_effect = {
@@ -3366,7 +3411,7 @@ country_event = { #Technocracy Election
 			limit = {
 				faction_influence = {
 					faction = tec_technomancy
-					influence = 40
+					influence = 25
 				}
 			}
 			hidden_effect = {
@@ -3474,7 +3519,21 @@ country_event = { #Technocracy Election
 			limit = {
 				faction_influence = {
 					faction = tec_mechanists
-					influence = 80
+					influence = 99
+				}
+			}
+			hidden_effect = {
+				change_adm = 4
+				change_dip = 4
+				change_mil = 4
+			}
+			custom_tooltip = increase_stats_by_3_influence_tt 
+		}
+		else_if = {
+			limit = {
+				faction_influence = {
+					faction = tec_mechanists
+					influence = 75
 				}
 			}
 			hidden_effect = {
@@ -3488,7 +3547,7 @@ country_event = { #Technocracy Election
 			limit = {
 				faction_influence = {
 					faction = tec_mechanists
-					influence = 60
+					influence = 50
 				}
 			}
 			hidden_effect = {
@@ -3496,13 +3555,13 @@ country_event = { #Technocracy Election
 				change_dip = 2
 				change_mil = 2
 			}
-			custom_tooltip = increase_stats_by_2_influence_tt
+			custom_tooltip = increase_stats_by_2_influence_tt 
 		}
 		else_if = {
 			limit = {
 				faction_influence = {
 					faction = tec_mechanists
-					influence = 40
+					influence = 25
 				}
 			}
 			hidden_effect = {
@@ -3597,79 +3656,80 @@ country_event = { #Technocracy Death Election
 	}
 }
 
-country_event = { #Technocracy Event On Reform Taken
-	id = elections.902
-	title = elections.902.t
-	desc = elections.902.desc
+# country_event = { #Technocracy Event On Reform Taken
+# Commented out for now due to changes in technocracy mechanics, where rulers you have upon taking it should be able to stay without a repub tradition cost either way- can be reinstated if design changes
+# 	id = elections.902
+# 	title = elections.902.t
+# 	desc = elections.902.desc
 
-	picture = ELECTION_REPUBLICAN_eventPicture
+# 	picture = ELECTION_REPUBLICAN_eventPicture
 	
-	is_triggered_only = yes
+# 	is_triggered_only = yes
 		
-	trigger = {
-		OR = {
-			has_reform = technocracy_republic_reform
-			has_reform = imperial_technocracy_republic_reform
-		}
-	}
+# 	trigger = {
+# 		OR = {
+# 			has_reform = technocracy_republic_reform
+# 			has_reform = imperial_technocracy_republic_reform
+# 		}
+# 	}
 	
-	immediate = {
-		hidden_effect = {
-			add_faction_influence = {
-				faction = tec_brilliance
-				influence = 100
-			}
-			add_faction_influence = {
-				faction = tec_mechanists
-				influence = 50
-			}
-			add_faction_influence = {
-				faction = tec_technomancy
-				influence = 34
-			}
-		}
-	}
+# 	immediate = {
+# 		hidden_effect = {
+# 			add_faction_influence = {
+# 				faction = tec_brilliance
+# 				influence = 100
+# 			}
+# 			add_faction_influence = {
+# 				faction = tec_mechanists
+# 				influence = 50
+# 			}
+# 			add_faction_influence = {
+# 				faction = tec_technomancy
+# 				influence = 34
+# 			}
+# 		}
+# 	}
 
-	option = {
-		name = elections.902.a # Current ruler becomes Brillite
-		hidden_effect = {
-			set_ruler_flag = brillite_ruler
-		}
-		add_faction_influence = {
-			faction = tec_brilliance
-			influence = 5
-		}
-		ai_chance = { 
-			factor = 1
-		}
-	}
-	option = {
-		name = elections.902.b # Current ruler becomes Thaumaturge
-		hidden_effect = {
-			set_ruler_flag = technomancy_ruler
-		}
-		add_faction_influence = {
-			faction = tec_technomancy
-			influence = 5
-		}
-		ai_chance = { 
-			factor = 1
-		}
-	}
-	option = {
-		name = elections.902.c # Current ruler becomes Mechanist
-		hidden_effect = {
-			set_ruler_flag = mechanists_ruler
-		}
-		add_faction_influence = {
-			faction = tec_mechanists
-			influence = 5
-		}
-		ai_chance = { 
-			factor = 1
-		}
-	}
-}
+# 	option = {
+# 		name = elections.902.a # Current ruler becomes Brillite
+# 		hidden_effect = {
+# 			set_ruler_flag = brillite_ruler
+# 		}
+# 		add_faction_influence = {
+# 			faction = tec_brilliance
+# 			influence = 5
+# 		}
+# 		ai_chance = { 
+# 			factor = 1
+# 		}
+# 	}
+# 	option = {
+# 		name = elections.902.b # Current ruler becomes Thaumaturge
+# 		hidden_effect = {
+# 			set_ruler_flag = technomancy_ruler
+# 		}
+# 		add_faction_influence = {
+# 			faction = tec_technomancy
+# 			influence = 5
+# 		}
+# 		ai_chance = { 
+# 			factor = 1
+# 		}
+# 	}
+# 	option = {
+# 		name = elections.902.c # Current ruler becomes Mechanist
+# 		hidden_effect = {
+# 			set_ruler_flag = mechanists_ruler
+# 		}
+# 		add_faction_influence = {
+# 			faction = tec_mechanists
+# 			influence = 5
+# 		}
+# 		ai_chance = { 
+# 			factor = 1
+# 		}
+# 	}
+# }
 
 ##Racial Equality elections
 
