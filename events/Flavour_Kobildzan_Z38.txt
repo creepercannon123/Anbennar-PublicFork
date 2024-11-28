@@ -36,6 +36,10 @@ country_event = { #To Become Dragons
 
 	option = { #WE ARE KOBILDZAN! OF DRAGONS AND KOBOLDS!
 		name = flavour_kobildzan.2.a
+		if = {
+			limit = { is_tribal = yes }
+			hidden_effect = { lose_reforms = 10 }
+		}
 		change_government = republic
 		add_government_reform = technocracy_republic_reform
 		swap_non_generic_missions = yes
