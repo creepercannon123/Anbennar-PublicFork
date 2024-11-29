@@ -611,6 +611,10 @@ country_event = {
 	picture = AFRICAN_DISCIPLINE_eventPicture
 	is_triggered_only = yes
 
+	trigger = {
+		religion = sky_domain
+	}
+
 	immediate = {
 		random_owned_province = {
 			limit = {
@@ -648,7 +652,8 @@ country_event = {
 	picture = AMILAK_eventPicture
 	is_triggered_only = yes
 
-	immediate = {
+	trigger = {
+		religion = sky_domain
 	}
 	
 	option = {
@@ -711,13 +716,11 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
+		religion = sky_domain
 		OR = {
 			temple = 2
 			cathedral = 2
 		}
-	}
-
-	immediate = {
 	}
 	
 	option = {
@@ -738,6 +741,7 @@ country_event = {
 
 	option = {
 		name = sky_domain.22.c
+		highlight = yes
 		trigger = {
 			tag = L65
 		}
@@ -755,7 +759,8 @@ country_event = {
 	picture = SMUGGLERS_eventPicture
 	is_triggered_only = yes
 
-	immediate = {
+	trigger = {
+		religion = sky_domain
 	}
 	
 	option = {
@@ -777,6 +782,7 @@ country_event = {
 	}
 
 	option = {
+		highlight = yes
 		trigger = {
 			ruler_has_personality = embezzler_personality
 		}
@@ -792,7 +798,20 @@ country_event = {
 	picture = HARPY_TOWN_eventPicture
 	is_triggered_only = yes
 
-	immediate = {
+	trigger = {
+		religion = sky_domain
+		any_owned_province = {
+			OR = {
+				has_province_modifier = harpy_minority_integrated_small
+				has_province_modifier = harpy_minority_integrated_large
+				has_province_modifier = harpy_minority_oppressed_small
+				has_province_modifier = harpy_minority_oppressed_large
+				has_province_modifier = harpy_majority_oppressed
+				has_province_modifier = harpy_majority_coexisting
+				has_province_modifier = harpy_majority_integrated
+				has_province_modifier = harpy_majority_primary
+			}
+		}
 	}
 	
 	option = {
@@ -816,6 +835,7 @@ country_event = {
 
 	option = {
 		name = sky_domain.24.c
+		highlight = yes
 		trigger = {
 			culture_group = harpy
 		}
