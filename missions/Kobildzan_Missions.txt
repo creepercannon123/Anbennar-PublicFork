@@ -1439,18 +1439,18 @@ kob_3_b = {
 				calc_true_if = {
 					amount = 12
 					desc = 12_aspects_unlocked_tt
-					has_country_flag = unlocked_black_dragon_2_base
-					has_country_flag = unlocked_black_dragon_3_base
 					has_country_flag = unlocked_red_dragon_2_base
-					has_country_flag = unlocked_red_dragon_3_base
+					has_country_flag = unlocked_red_dragon_3_base				
 					has_country_flag = unlocked_blue_dragon_2_base
 					has_country_flag = unlocked_blue_dragon_3_base
+					has_country_flag = unlocked_green_dragon_2_base
+					has_country_flag = unlocked_green_dragon_3_base
+					has_country_flag = unlocked_black_dragon_2_base			
+					has_country_flag = unlocked_black_dragon_3_base
 					has_country_flag = unlocked_white_dragon_2_base
 					has_country_flag = unlocked_white_dragon_3_base
 					has_country_flag = unlocked_purple_dragon_2_base
 					has_country_flag = unlocked_purple_dragon_3_base
-					has_country_flag = unlocked_green_dragon_2_base
-					has_country_flag = unlocked_green_dragon_3_base
 					has_country_flag = unlocked_brown_dragon_2_base
 					has_country_flag = unlocked_brown_dragon_3_base
 					has_country_flag = unlocked_brass_dragon_2_base
@@ -1461,6 +1461,8 @@ kob_3_b = {
 					has_country_flag = unlocked_silver_dragon_3_base
 					has_country_flag = unlocked_gold_dragon_2_base
 					has_country_flag = unlocked_gold_dragon_3_base
+					has_country_flag = unlocked_bronze_dragon_2_base
+					has_country_flag = unlocked_bronze_dragon_3_base		
 				}
 
 			custom_trigger_tooltip = {
@@ -2513,8 +2515,6 @@ kob_1_c = {
 				}	
 			}
 			has_church_aspect = green_dragon_1_upgraded
-			has_church_aspect = green_dragon_2_upgraded
-			has_church_aspect = green_dragon_3_base
 		}
 
 		effect = {
@@ -2984,8 +2984,6 @@ kob_2_c = {
 			owns_or_subject_of = 2863
 
 			has_church_aspect = red_dragon_1_upgraded
-			has_church_aspect = red_dragon_2_upgraded
-			has_church_aspect = red_dragon_3_base
 
 			187 = {
 				check_variable = {
@@ -3090,8 +3088,8 @@ kob_3_c = {
 			is_ahead_of_time_in_technology = { tech = dip }
 			is_ahead_of_time_in_technology = { tech = mil }
 
-			has_church_aspect = blue_dragon_1_upgraded
 			dragon_coast_region = { type = all NOT = { devastation = 50 } }
+			has_church_aspect = blue_dragon_1_upgraded
 		}
 		
 		effect = {
@@ -3123,18 +3121,18 @@ kob_3_c = {
 			
 				custom_trigger_tooltip = {
 					tooltip = unlocked_all_aspects_tt 
-					has_country_flag = unlocked_black_dragon_2_base
-					has_country_flag = unlocked_black_dragon_3_base
 					has_country_flag = unlocked_red_dragon_2_base
-					has_country_flag = unlocked_red_dragon_3_base
+					has_country_flag = unlocked_red_dragon_3_base				
 					has_country_flag = unlocked_blue_dragon_2_base
 					has_country_flag = unlocked_blue_dragon_3_base
+					has_country_flag = unlocked_green_dragon_2_base
+					has_country_flag = unlocked_green_dragon_3_base
+					has_country_flag = unlocked_black_dragon_2_base			
+					has_country_flag = unlocked_black_dragon_3_base
 					has_country_flag = unlocked_white_dragon_2_base
 					has_country_flag = unlocked_white_dragon_3_base
 					has_country_flag = unlocked_purple_dragon_2_base
 					has_country_flag = unlocked_purple_dragon_3_base
-					has_country_flag = unlocked_green_dragon_2_base
-					has_country_flag = unlocked_green_dragon_3_base
 					has_country_flag = unlocked_brown_dragon_2_base
 					has_country_flag = unlocked_brown_dragon_3_base
 					has_country_flag = unlocked_brass_dragon_2_base
@@ -3144,7 +3142,9 @@ kob_3_c = {
 					has_country_flag = unlocked_silver_dragon_2_base
 					has_country_flag = unlocked_silver_dragon_3_base
 					has_country_flag = unlocked_gold_dragon_2_base
-					has_country_flag = unlocked_gold_dragon_3_base					
+					has_country_flag = unlocked_gold_dragon_3_base
+					has_country_flag = unlocked_bronze_dragon_2_base
+					has_country_flag = unlocked_bronze_dragon_3_base					
 				}
 
 
@@ -3620,8 +3620,6 @@ kob_5_c = {
 				
 			}
 			has_church_aspect = white_dragon_1_upgraded
-			has_church_aspect = white_dragon_2_upgraded
-			has_church_aspect = white_dragon_3_base
 		}
 
 		effect = {
@@ -3661,8 +3659,6 @@ kob_5_c = {
 				}
 			}
 			has_church_aspect = copper_dragon_1_upgraded
-			has_church_aspect = copper_dragon_2_upgraded
-			has_church_aspect = copper_dragon_3_base
 
 			has_estate_privilege = artifice_invention_lullaby_cannon
 			

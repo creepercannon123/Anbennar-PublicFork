@@ -247,7 +247,7 @@
  dd_unlock_artificery_tt: "Unlocks §YArtificery§!"
  10_cities_in_broken_haraf_or_eordand_tt: "Has a capital in the §YBroken Sea§!, §YHaraf§!, or §YEordand§! Colonial Regions, and owns §Y10§! or more provinces"
  DD_brought_to_tech_level_tt: "We share our innovative insights with the §YDragon Dominion§!, bringing their technological level up to our own!"
- 12_aspects_unlocked_tt: " basic §YAspects§! have been unlocked through Festivals"
+ 12_aspects_unlocked_tt: " basic, non-upgraded §YAspects§! have been unlocked through Festivals"
  human_and_halfling_culture_tt: "Accepts at least one §YHuman§! and one §YHalfling§! culture"
  177_tax_or_court_tt: "§Y[177.GetName]§! has a §YTemple§! building or a §YCourthouse§! building"
  179_tax_or_court_tt: "§Y[179.GetName]§! has a §YTemple§! building or a §YCourthouse§! building"
