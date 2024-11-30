@@ -475,7 +475,7 @@ kob_3_a = {
 		}
 
 		trigger = {
-			religious_unity = 0.8
+			religious_unity = 0.7
 			custom_trigger_tooltip = {
 				tooltip = missionaries_two_hint_tt
 				num_of_missionaries = 2
