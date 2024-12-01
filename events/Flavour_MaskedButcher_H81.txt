@@ -80,7 +80,7 @@ country_event = {
 				days = 5
 			}
 		}
-		east_overmarch_area = { discover_country = ROOT }
+		tencmarck_area = { discover_country = ROOT }
 	}
 }
 

@@ -1093,9 +1093,9 @@ maskedbutcher_missions_2d = {
 				area = zagnabad_area
 				area = aqatbahar_area
 				area = medbahar_area
-				area = south_overmarch_area
-				area = east_overmarch_area
-				area = west_overmarch_area
+				area = oudmarck_area
+				area = tencmarck_area
+				area = lencmarck_area
 			}
 			NOT = { owned_by = ROOT }
 		}
@@ -1115,16 +1115,16 @@ maskedbutcher_missions_2d = {
 					owned_by = ROOT
 				}
 			}
-			east_overmarch_area = {
+			tencmarck_area = {
 				type = all
 				owned_by = ROOT
 			}
 			OR = {
-				south_overmarch_area = {
+				oudmarck_area = {
 					type = all
 					owned_by = ROOT
 				}
-				west_overmarch_area = {
+				lencmarck_area = {
 					type = all
 					owned_by = ROOT
 				}
@@ -1398,9 +1398,9 @@ maskedbutcher_missions_3d = {
 			zagnabad_area = { add_permanent_claim = ROOT }
 			aqatbahar_area = { add_permanent_claim = ROOT }
 			medbahar_area = { add_permanent_claim = ROOT }
-			east_overmarch_area = { add_permanent_claim = ROOT }
-			west_overmarch_area = { add_permanent_claim = ROOT }
-			south_overmarch_area = { add_permanent_claim = ROOT }
+			tencmarck_area = { add_permanent_claim = ROOT }
+			lencmarck_area = { add_permanent_claim = ROOT }
+			oudmarck_area = { add_permanent_claim = ROOT }
 		}
 	}
 
